@@ -39,7 +39,6 @@ public class DashboardController : ControllerBase
     [HttpGet("sales")]
     public IActionResult GetSalesData()
     {
-        // Dados simulados para os gráficos
         var salesData = new[]
         {
             new { month = "Jan", sales = 4000 },

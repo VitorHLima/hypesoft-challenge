@@ -10,6 +10,5 @@ public class Product : BaseEntity
     public string CategoryId { get; set; } = string.Empty;
     public int Stock { get; set; }
     
-    // Navigation property
     public Category? Category { get; set; }
 }

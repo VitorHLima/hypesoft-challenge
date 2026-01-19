@@ -49,7 +49,7 @@ public class ProductTests
             CategoryId = "cat-1"
         };
         var originalUpdatedAt = product.UpdatedAt ?? DateTime.UtcNow;
-        Thread.Sleep(10); // Pequeno delay para garantir diferença de tempo
+        Thread.Sleep(10);
 
         // Act
         product.Name = "New Name";
